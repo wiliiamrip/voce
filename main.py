@@ -10,7 +10,7 @@ class Music(commands.Cog):
     @commands.command()
     async def join(self, ctx, *, channel: discord.VoiceChannel):
         if ctx.voice_client is not None:
-            return await ctx.voice_client.move_to(channel)
+            return await ctx.voice_client.move_to('1344784289920979034')
         await channel.connect()
 
     @commands.command()
